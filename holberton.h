@@ -15,9 +15,10 @@ int put_i(va_list argf);
 int put_n(va_list argf);
 
 /**
- *forms - forms 
- *@x: character type
- *@fn: function
+ * struct forms - forms
+ * @x: character type
+ * @fn: function
+ * Description: empty
  */
 typedef struct forms
 {
@@ -25,5 +26,5 @@ char x;
 int (*fn)(va_list argf);
 }
 forms;
-
+int struu(const char *format, int y, va_list argf);
 #endif
