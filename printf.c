@@ -5,7 +5,7 @@
 /**
  * _printf - _printf
  * @format : char
- * Return: something 
+ * Return: something
  */
 int _printf(const char *format, ...)
 {
@@ -19,14 +19,14 @@ for (x = 0; format[x] != '\0'; x++)
 {
 if ((format[x] == '%') && (format[x + 1] == 'c'))
 {
-k =(char)va_arg(forms, int);
+k = (char)va_arg(forms, int);
 _putchar(k);
 count++;
 x++;
 }
 else if ((format[x] == '%') && (format[x + 1] == 's'))
 {
-ks =va_arg(forms, char*);
+ks = va_arg(forms, char*);
 for (j = 0; ks[j] != '\0'; j++)
 _putchar(ks[j]);
 count = count + j;
