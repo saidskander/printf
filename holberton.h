@@ -14,6 +14,6 @@ int print_h(va_list argf);
 
 int print_n(va_list argf);
 
-int print_ex (va_list argf);
+int print_ex(va_list argf);
 
 #endif
