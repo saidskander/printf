@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _printf - _printf
+ * _printf - _fprintf
  * @format : char
  * Return: something
  */
